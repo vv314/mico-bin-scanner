@@ -1,3 +1,3 @@
-# 小爱音箱固件扫描
+# MINA 固件扫描
 
-扫描 `http://bigota.miwifi.com/xiaoqiang/rom/{{romType}}/mico_all_{{hash}}_{{version}}.bin` 资源
+嗅探 `http://bigota.miwifi.com/xiaoqiang/rom/{{romType}}/mico_all_{{hash}}_{{version}}.bin` 资源

@@ -2,15 +2,24 @@
   "name": "mico-bin-scanner",
   "version": "0.0.1",
   "description": "",
-  "main": "index.js",
+  "exports": "./index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index"
+    "start": "node index",
+    "dict": "node gen-dict"
   },
   "keywords": [],
   "author": "Vincent <vv314@foxmail.com>",
   "license": "MIT",
+  "node": "^12.20.0 || ^14.13.1 || >=16.0.0",
   "dependencies": {
-    "p-limit": "^2.2.2"
+    "execa": "^6.1.0",
+    "filesize": "^8.0.7",
+    "fs-extra": "^10.0.1",
+    "lodash": "^4.17.21",
+    "ora": "^6.1.0",
+    "p-limit": "^4.0.0",
+    "worker-farm": "^1.7.0"
   }
 }
